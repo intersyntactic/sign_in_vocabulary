@@ -1,0 +1,14 @@
+name: is_sign_in_vocabulary
+description: >-
+  A sign-in by name: which of the person's accounts a request goes out as,
+  never the secret, with its JSON.
+version: 0.1.0
+repository: https://github.com/intersyntactic/sign_in_vocabulary
+
+environment:
+  sdk: ^3.13.0
+
+dev_dependencies:
+  analyzer: ^14.7.0
+  lints: ^6.1.0
+  test: ^1.25.0
