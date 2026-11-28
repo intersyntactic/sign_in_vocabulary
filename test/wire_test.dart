@@ -1,3 +1,4 @@
+import 'package:is_sign_in_vocabulary/bot_pool.dart';
 import 'package:is_sign_in_vocabulary/is_sign_in_vocabulary.dart';
 import 'package:test/test.dart';
 
