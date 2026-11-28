@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- `BotPool`, with `encodeBotPool` / `decodeBotPool`, moved unchanged from
+  `is_effects`: the pool of bot sign-ins a trajectory leases one from.
+
 ## 0.1.0
 
 - `SignIn`, with `encodeSignIn` / `decodeSignIn`, moved unchanged from
