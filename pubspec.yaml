@@ -1,8 +1,9 @@
 name: is_sign_in_vocabulary
 description: >-
   A sign-in by name: which of the person's accounts a request goes out as,
-  never the secret, with its JSON.
-version: 0.1.0
+  never the secret, and the pool of bot sign-ins one is leased from, with
+  their JSON.
+version: 0.1.1
 repository: https://github.com/intersyntactic/sign_in_vocabulary
 
 environment:
