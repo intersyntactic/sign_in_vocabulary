@@ -22,3 +22,14 @@ final class BotPool {
 }
 
 final _name = RegExp(r'^[a-z0-9][a-z0-9_-]*$');
+
+Object? encodeBotPool(BotPool pool) => pool.name;
+
+BotPool decodeBotPool(Object? json, [String field = 'botPool']) {
+  final raw = switch (json) {
+    final String s => s,
+    _ => throw FormatException('$field: not a string'),
+  };
+  return BotPool.parse(raw) ??
+      (throw FormatException('$field: not a bot pool ($raw)'));
+}
